@@ -1,12 +1,46 @@
 body{
-    background-color: hsl(0, 0%, 0%);
+    background-color: hsl(281, 100%, 35%);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 h1{
     color: white;
     font-size: 42px;
     text-decoration: underline;
-    text-decoration-color: blueviolet;
+    text-decoration: none;
     text-align: center;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shop-nav {
+    min-width: 100%;
+    background-color: #ffae00;
+}
+
+.shop-nav a{
+color: #000000;
+text-decoration: none;
+padding: 10px;
+}
+
+.shop-nav a:hover{
+background-color: #ffae00;
+}
+
+.user-nav a{
+    color: #00ff0d;
+    text-decoration: none;
 }
