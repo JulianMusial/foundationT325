@@ -14,6 +14,7 @@ h1{
 
 .logo {
     max-width: 100px;
+    margin-left:30px;
 }
 
 .main-header {
@@ -26,8 +27,12 @@ h1{
 }
 
 .shop-nav {
-    min-width: 100%;
+    width: 100%;
     background-color: #ffae00;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    flex-wrap: wrap;
 }
 
 .shop-nav a{
@@ -43,4 +48,27 @@ background-color: #ffae00;
 .user-nav a{
     color: #00ff0d;
     text-decoration: none;
+}
+
+.user-nav {
+    margin-right: 30px;
+}
+
+.search {
+    display: flex;
+    min-width: 400px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .shop-nav {
+        flex-direction: column;
+    }
+    .logo {
+        max-width: 60px;
+    }
 }
