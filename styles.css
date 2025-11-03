@@ -1,5 +1,5 @@
 body{
-    background-color: hsl(281, 100%, 35%);
+    background-image: url(images/Logo_3D.png);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -20,7 +20,7 @@ h1{
 .main-header {
     display: flex;
     flex-direction: row;
-    background-color: #000000;
+    background-color: #00000000;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -28,22 +28,22 @@ h1{
 
 .shop-nav {
     width: 100%;
-    background-color: #ffae00;
+    background-color: #ffae0000;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     padding-left: 30px;
     flex-wrap: wrap;
 }
 
 .shop-nav a{
-color: #000000;
-text-decoration: none;
-padding: 10px;
+    color: #00ff0d;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .shop-nav a:hover{
-background-color: #ffae00;
-color:#7a00b3
+    color:#7a00b3
 }
 
 .user-nav a{
@@ -54,7 +54,7 @@ color:#7a00b3
 .user-nav {
     font-size: 32pt;
     margin-right: 30px;
-    color: #ffae00;
+    color: #ffae0000;
 }
 
 .user-nav {
@@ -69,6 +69,13 @@ color:#7a00b3
 .search input {
     flex: 1;
     padding: 10px;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 42px;
 }
 
 @media screen and (max-width: 480px) {
