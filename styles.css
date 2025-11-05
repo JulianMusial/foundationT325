@@ -98,6 +98,38 @@ h1{
 .slide:nth-child(2){
     background-color: #ffa600;
 }
+
+.content{
+    margin: 3em auto;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12pt;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card {
+    flex: 1;
+}
+
+.card-content{
+    padding: 10pt;
+}
+
+.banner {
+    width: 100%;
+    background: linear-gradient(45deg, #00ff0d, #7a00b3);
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 480px) {
     .shop-nav {
         flex-direction: column;
