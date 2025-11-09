@@ -77,15 +77,10 @@ h1{
     min-height: 50vh;
     min-width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
 }
 
 .slide:nth-child(1){
-    background-image: url(images/nba.jpg); 
-    background-color: #7a00b3;
+    background-image: url(images/Homepage\ wireframe\ desktop\ cropped.jpg); 
 }
 
 
@@ -98,6 +93,9 @@ h1{
     font-size: 6em;
     text-shadow: 3px 3px 3px black;
     margin: 1pt;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 .content{
@@ -112,20 +110,25 @@ h1{
 .card img{
     max-width: 100%;
     float: left;
-    width:  300px;
-    height: 300px;
+    width:  700px;
+    height: 700px;
     object-fit: cover;
     display: flex;
     justify-content: space-around;
 }
 
 .card {
+    position: relative;
+    text-align: center;
     flex: 1;
 }
 
 .card-content{
-    padding: 12pt;
-    display: flex;
+    font-size: 50pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner {
