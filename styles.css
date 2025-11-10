@@ -43,6 +43,67 @@ h1{
     padding: 10px;
 }
 
+.women {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff9500;
+    border: 2px solid #00ff0d;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.women:hover {
+    background-color: #00000000;
+    color: #7a00b3;
+}
+
+.men {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff9500;
+    border: 2px solid #00ff0d;
+    border-radius: 10%;
+}
+
+.men:hover{
+    background-color: #00000000;
+    color: #7a00b3;
+}
+
+.kids {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff9500;
+    border: 2px solid #00ff0d;
+    border-radius: 10%;
+}
+
+.kids:hover {
+    background-color: #00000000;
+    color: #7a00b3;
+}
+
+.brands {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff9500;
+    border: 2px solid #00ff0d;
+    border-radius: 10%;
+}
+
+.brands:hover {
+    background-color: #00000000;
+    color: #7a00b3;
+}
+
+.specials {
+    background-color: rgba(255, 255, 255, 0);
+    color: #ff9500;
+    border: 2px solid #00ff0d;
+    border-radius: 10%;
+}
+
+.specials:hover {
+    background-color: #00000000;
+    color: #7a00b3;
+}
+
 .shop-nav a:hover{
     color:#7a00b3
 }
@@ -68,6 +129,8 @@ h1{
 }
 
 .search input {
+    background-color: #00000000;
+    border: 2px;
     flex: 1;
     padding: 10px;
 }
