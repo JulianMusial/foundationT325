@@ -188,9 +188,10 @@ h1{
 }
 
 .card {
-    position: relative;
+    /* position: relative; */
     text-align: center;
     flex: 1;
+    min-width: 360px;
 }
 
 .card-content{
