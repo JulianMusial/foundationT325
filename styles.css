@@ -13,6 +13,18 @@ h1{
     text-align: center;
 }
 
+.nav-button {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 24px;
+    color: #00ff0d;
+    display: none;
+}
+
+.nav-button:focus {
+    color: #ff9500;
+}
+
 .logo {
     max-width: 100px;
     margin-left:30px;
@@ -38,14 +50,13 @@ h1{
 }
 
 .shop-nav a{
-    color: #00ff0d;
+    color: #ff9500;
     text-decoration: none;
     padding: 10px;
 }
 
 .women {
     background-color: rgba(255, 255, 255, 0);
-    color: #ff9500;
     border: 2px solid #00ff0d;
     border-radius: 10%;
     padding: 5px;
@@ -58,7 +69,6 @@ h1{
 
 .men {
     background-color: rgba(255, 255, 255, 0);
-    color: #ff9500;
     border: 2px solid #00ff0d;
     border-radius: 10%;
 }
@@ -70,7 +80,6 @@ h1{
 
 .kids {
     background-color: rgba(255, 255, 255, 0);
-    color: #ff9500;
     border: 2px solid #00ff0d;
     border-radius: 10%;
 }
@@ -82,7 +91,6 @@ h1{
 
 .brands {
     background-color: rgba(255, 255, 255, 0);
-    color: #ff9500;
     border: 2px solid #00ff0d;
     border-radius: 10%;
 }
@@ -94,7 +102,6 @@ h1{
 
 .specials {
     background-color: rgba(255, 255, 255, 0);
-    color: #ff9500;
     border: 2px solid #00ff0d;
     border-radius: 10%;
 }
@@ -196,7 +203,7 @@ h1{
 
 .banner {
     width: 100%;
-    background: linear-gradient(45deg, #00ff0d, #7a00b3);
+    background: linear-gradient( to right, purple,pink);
     min-height: 20vh;
     display: flex;
     flex-direction: column;
@@ -235,8 +242,17 @@ h1{
 }
 
 @media screen and (max-width: 480px) {
+    .main-header {
+        position: relative;
+    }
     .shop-nav {
         flex-direction: column;
+        position: absolute;
+        top: 100%;
+        z-index: 99;
+        min-height: 100vh;
+        padding-top: 10px;
+        gap: 15px;
     }
     .logo {
         max-width: 60px;
