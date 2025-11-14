@@ -13,6 +13,13 @@ h1{
     text-align: center;
 }
 
+.graduate-regular {
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .nav-button {
     background-color: transparent;
     border-color: transparent;
@@ -40,6 +47,7 @@ h1{
 }
 
 .shop-nav {
+    padding: 12px;
     width: 100%;
     background-color: #ffae0000;
     display: flex;
@@ -156,15 +164,36 @@ h1{
 }
 
 .slide:nth-child(1){
-    background-image: url(images/Homepage\ wireframe\ desktop\ cropped.jpg); 
+    background-image: url(images/Homepage\ wireframe\ desktop.jpg);
+    display: flex;
+    background-size:cover;
+
 }
 
 
 .slide:nth-child(2){
     background-color: #ffa600;
+    background-image: url(images/Sports/nfl.jpg);
+    display: flex;
+    background-size: cover;
+}
+
+.slide:nth-child(3){
+    background-color: #ffa600;
+    background-image: url(images/Sports/soccer_5.jpeg);
+    display: flex;
+    background-size: cover;
+}
+
+.slide:nth-child(4){
+    background-color: #ffa600;
+    background-image: url(images/shoes.png);
+    display: flex;
+    background-size: cover;
 }
 
 .slide h2{
+    font-family: "Graduate", serif;
     color: white;
     font-size: 6em;
     text-shadow: 3px 3px 3px black;
@@ -196,22 +225,60 @@ h1{
 }
 
 .card {
-    /* position: relative; */
+    position: relative;
     text-align: center;
     flex: 1;
     min-width: 360px;
+    display: inline-block;
+}
+
+.card-content-men {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-content-men h3 {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    text-shadow: 3px 3px 3px black;
+    font-family: "Graduate", serif;
+}
+
+.card-content-women {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-content-women h3 {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    text-shadow: 3px 3px 3px black;
+    font-family: "Graduate", serif;
+}
+
+.card-content-kids {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-content-kids h3 {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    text-shadow: 3px 3px 3px black;
+    font-family: "Graduate", serif;
 }
 
 .card-content{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: #000000; 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 20px; 
-    text-align: center;
+    padding: 12pt;
 }
 
 .banner {
@@ -273,7 +340,6 @@ h1{
     align-self: center;
     min-width: 200px;
 }
-
 
 @media screen and (max-width: 480px) {
     .main-header {
