@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <link rel="icon" href="images/Logo_no_text-removebg-preview.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,shopping_cart,storefront" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -22,26 +25,23 @@
             <i class="fa-solid fa-bars"></i>
         </button>
         <a href="/">
-            <img class="logo" src="images/Logo_no_text-removebg-preview.png">
+            <img class="logo" src="images/Logo_no_text-removebg-preview.png" alt="Pro Gear Hub Logo">
         </a>
         <form class="search" method="get" action="/search.php">
-            <input type="Search" placeholder="Search for a product">
+            <input type="search" placeholder="Search for a product">
             <button>
                 Search
             </button>
         </form>
         <nav class="user-nav">
-            <a href="stores.html"><span class="material-symbols-outlined">
-                    storefront
+                <span class="material-symbols-outlined">storefront</span>
             </a>
-            <a href="account.html"><span class="material-symbols-outlined">
-                    person
+            <a href="account.html">
+                <span class="material-symbols-outlined">person</span>
             </a>
-            <a href="cart.html"><span class="material-symbols-outlined">
-                    shopping_cart
+            <a href="cart.html">
+                <span class="material-symbols-outlined">shopping_cart</span>
             </a>
-
-            </span>
         </nav>
         <nav class="shop-nav">
             <a href="women.html" class="women">Women</a>
@@ -49,8 +49,21 @@
             <a href="kids.html" class="kids">Kids</a>
             <a href="brands.html" class="brands">Brands</a>
             <a href="specials.html" class="specials">Specials</a>
+                <a href="stores.html" class="nav-mobile-only">
+                <span class="material-symbols-outlined">storefront</span>
+                Stores
+            </a>
+            <a href="account.html" class="nav-mobile-only">
+                <span class="material-symbols-outlined">person</span>
+                Account
+            </a>
+            <a href="cart.html" class="nav-mobile-only">
+                <span class="material-symbols-outlined">shopping_cart</span>
+                Cart
+            </a>
 
         </nav>
+
     </header>
     <div class="main-carousel" data-flickity='{ "autoPlay": true, "cellAlign": "left", "contain": true }'>
         <div class="slide">
@@ -70,21 +83,21 @@
     <main class="content">
 
         <div class="card">
-            <img src="images/Men/luka_2.png">
+            <img src="images/Men/luka_2.png" alt="Man playing basketball">
             <div class="card-content-men">
                 <h3>Men</h3>
             </div>
         </div>
 
         <div class="card">
-            <img src="images/Women/Swiatek4-860x574-1.jpg">
+            <img src="images/Women/Swiatek4-860x574-1.jpg" alt="Woman playing tennis">
             <div class="card-content-women">
                 <h3>Women</h3>
             </div>
         </div>
 
         <div class="card">
-            <img src="images/Kids-Soccer.jpg">
+            <img src="images/Kids-Soccer.jpg" alt="Kids playing soccer">
             <div class="card-content-kids">
                 <h3>Kids</h3>
             </div>
@@ -108,7 +121,7 @@
             </a>
         </nav>
         <nav class="footer-nav">
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
             <a href="#">Terms</a>
             <a href="#">Support</a>
             <a href="#">Policies</a>
